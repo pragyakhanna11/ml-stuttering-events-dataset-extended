@@ -2,14 +2,14 @@
 # Stuttering Events in Podcasts Dataset Extended (SEP-28k-E)
 
 The SEP-28k-E dataset is an extension of the SEP-28k dataset.
-It consists of the same data as the original [dataset](!https://github.com/apple/ml-stuttering-events-dataset/) with the following additions:
+It consists of the same data as the original [dataset](https://github.com/apple/ml-stuttering-events-dataset/) with the following additions:
 
 * speaker and gender information
 * added number of speakers to expect per podcast episode
 * named speaker labels for the podcast's hosts
 * suggestions for balanced data split, helping with objective comparison of dysfluency detection systems
 
-Please see the preprint on [arXiv](!https://arxiv.org/abs/2206.03400) for a detailed description of the dataset composition and experimental baseline results. 
+Please see the preprint on [arXiv](https://arxiv.org/abs/2206.03400) for a detailed description of the dataset composition and experimental baseline results. 
 
 The SEP-28k dataset contains stuttering event annotations for approximately 28,000 3-second clips.
 In addition we include stutter event annotations for about 4,000 3-second clips from the FluencyBank dataset. Audio files are not part of this released dataset but may be downloaded using URLs provided in the `*_episodes.csv` files. Original copyright remains with the podcast owners. 
